@@ -1,0 +1,32 @@
+(base) MBP-Macbook-12:sspark_files macbook$ git config --global user.email "itsmepradip@gmail.com"
+(base) MBP-Macbook-12:sspark_files macbook$ git config --global user.name "prn436"
+(base) MBP-Macbook-12:sspark_files macbook$ git init
+Initialized empty Git repository in /Users/macbook/python/sspark_files/.git/
+(base) MBP-Macbook-12:sspark_files macbook$ git status
+(base) MBP-Macbook-12:sspark_files macbook$ git add iris.csv
+(base) MBP-Macbook-12:sspark_files macbook$ git status
+(base) MBP-Macbook-12:sspark_files macbook$ git commit -m "add iris.csv"
+(base) MBP-Macbook-12:sspark_files macbook$ git commit -m "add setosa"
+[master bc52d32] add setosa
+ 6 files changed, 50 insertions(+)
+ create mode 100644 setosa/._SUCCESS.crc
+ create mode 100644 setosa/.part-00000.crc
+ create mode 100644 setosa/.part-00001.crc
+ create mode 100644 setosa/_SUCCESS
+ create mode 100644 setosa/part-00000
+ create mode 100644 setosa/part-00001
+(base) MBP-Macbook-12:sspark_files macbook$ git remote add origin https://github.com/prn436/dec29.git
+(base) MBP-Macbook-12:sspark_files macbook$ git push -u origin master
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (10/10), 1.48 KiB | 378.00 KiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/prn436/dec29/pull/new/master
+remote: 
+To https://github.com/prn436/dec29.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
